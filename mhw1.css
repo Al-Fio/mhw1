@@ -1,0 +1,512 @@
+/* SPECIFICHE GENERICHE PER L'INTERO DOCUMENTO */
+html {
+    font-size: 18px;
+    margin: 0%;
+}
+
+body, article {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    color: #152f44;
+}
+
+section {
+    width: 100%;
+    margin: 0px;
+    padding: 70px 0px 0px 0px;
+}
+
+/* Specifiche per il testo */
+.titolo {
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.testo {
+    font-size: 16px;
+    margin: 0%;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+h4 {
+    font-size: 24px;
+    margin: 0%;
+}
+/*********************************************/
+
+/* Link and Link Button */
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.underline, #PuntoVendita {
+    text-decoration: underline;
+}
+
+.linkButton {
+    font-size: 13px;
+    /* width: 150px;
+    height: 52px; */
+    border-radius: 4px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: calc(calc(52px - 16px)/2) 20px;
+    text-transform: uppercase;
+}
+
+.linkBlue {
+    background-color: #152f44;
+}
+
+.linkBlue:hover {
+    background-color: #1a3952;
+}
+
+.linkOrange {
+    background-color: #f06123;
+}
+
+.linkOrange:hover {
+    background-color: #152f44;
+}
+
+.linkWhite {
+    background-color: #ffffff;
+    color: #152f44;
+}
+
+.linkWhite:hover {
+    color: #ffffff;
+    background-color: #152f44;
+}
+
+/*********************************************/
+
+/* Flex */
+.flex {
+    display: flex;
+    width: 100%;
+}
+
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center, #PuntoVendita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spaceAround {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.endColumn {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.start { 
+    display: flex;
+    justify-content: start;
+}
+/*********************************************/
+
+/* Header */
+header {
+    position: relative;
+    background-image: url(Immagini/catalogoBeretta.jpg);
+    height: 770px;
+
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+#DivSuperiore {
+    background-color: #152f44;
+    height: 40px;
+}
+
+#DivSuperiore a, #DivSuperiore div {
+    margin: 13px 100px;
+}
+
+#PuntoVendita:hover {
+    color: #0a58ca;
+}
+
+.navElement {
+    margin: 20px 15px;
+}
+
+img.navElement {
+    width: 30px;
+}
+
+header nav {
+    margin: 5px 0px;
+}
+
+header h2 {
+    font-size: 4rem;
+    font-weight: lighter;
+    margin: 0px 0px 10px 0px;
+}
+
+header h5 {
+    font-size: 13px;
+}
+
+header p {
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#superiorPHeader {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0px 0px 7px 0px;}
+
+#Ultraleggero {
+    width: 100%;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*********************************************/
+
+/* Abbigliamento Tiro */
+.scrittaShop {
+    width: 30%;
+    margin-left: 2%;
+}
+
+.divImgShop {
+    width: 60%;
+}
+
+.divImgShop div {
+    width: 30%;
+}
+
+.scrittaShop .titolo, .scrittaShop .testo {
+    margin-bottom: 60px;
+}
+
+.divImgShop img, .promo img {
+    width: 80%;
+} 
+
+.divImgShop .testo {
+    margin-top: 0px;
+}
+
+img.itemVariantShop {
+    width: 50%;
+}
+/*********************************************/
+
+#PromoDigitale {
+    text-align: center;
+}
+
+#PromoDigitale div.center {
+    margin-left: 5%;
+}
+
+img.promo {
+    width: 100%;
+}
+/*********************************************/
+
+/* Win the fight */
+#WinFight {
+    background-image: url(Immagini/teasertattico.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 70px;
+}
+
+.banner p {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 60px;
+    color: white;
+}
+
+.banner a {
+    margin: 0px 0px 60px 60px;
+}
+/*********************************************/
+
+/* Serie 90 - vedere shop abbigliamento */
+/*********************************************/
+
+/* 92X Performance */
+#Performance92X {
+    text-align: center;
+}
+
+#Performance92X p{
+    color: #202020;
+}
+/*********************************************/
+
+/* Steelium */
+#Steelium {
+    background-image: url(Immagini/steelium.webp);
+    background-size: cover;
+    height: 300px;
+}
+/*********************************************/
+
+/* DT11 - vedere shop abbigliamento */
+/*********************************************/
+
+/* Configuratore - MyBeretta */
+.sezioneDoppia div{
+    height: 110px;
+    margin: 0px 100px;
+    font-size: 32px;
+    border-left: 1px solid #152f44;
+    width: 70%;
+}
+
+.sezioneDoppia p, .sezioneDoppia a {
+    text-transform: uppercase;
+    margin: 0px 0px 30px 30px;
+}
+
+.sezioneDoppia a {
+    font-size: 13px;
+    color: #152f44;
+}
+
+.sezioneDoppia a:hover {
+    border-bottom: 1px solid #F06123;
+}
+/*********************************************/
+
+/* Beretta Service System */
+#ServiceSystem {
+    background-image: url(Immagini/berettaservicesystem.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: white;
+    margin-top: 70px;
+}
+
+#ServiceSystem div {
+    margin-left: 5%;
+}
+
+#ServiceSystem a {
+    font-size: 13px;
+    width: 150px;
+    height: 52px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0px 0px 40px 5%;
+}
+/*********************************************/
+
+/* Ultime Notizie Beretta */
+#UltimeNotizie {
+    margin-left: 60px;
+    position: relative;
+    width: 80%;
+}
+
+#UltimeNotizie img {
+    width: 500px;
+}
+
+#UltimeNotizie div {
+    text-align: center;
+    font-size: 10px;
+    padding: 4px 10px;
+    color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    background-color: #F06123;
+    border-radius: 10px;
+}
+/*********************************************/
+
+/* Caccia Tiro Tattico */
+#CacciaTiroTattico img {
+    width: 100%;
+}
+
+#CacciaTiroTattico div {
+    width: 33%;
+}
+
+
+#CacciaTiroTattico a{
+    color: white;
+    position: relative;
+    bottom: 30px;
+    left: 50%;
+}
+
+#CacciaTiroTattico a:hover{
+    border-bottom: 1px solid #F06123;
+}
+/*********************************************/
+
+/* Catalogo Manuali Arma */
+#CatalogoManualiArmi{
+    padding: 60px 0px;
+    background-color: #152f44;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+#CatalogoManualiArmi div{
+    border-left: 1px solid white;
+}
+
+#CatalogoManualiArmi a {
+    font-size: 13px;
+    color: white;
+}
+/*********************************************/
+
+/* Footer */
+footer {
+    margin: 0px;
+    padding: 40px 60px 20px 60px;
+    background-color: #202020;
+    height: auto;
+    color: white;
+}
+
+#FooterMiddle {
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #ffffff;
+}
+
+#FooterBottom {
+    margin-top: 60px;
+}
+
+footer .flexSpaceBetween, #NewsletterServizi {
+    width: 100%;
+}
+
+footer div.flex img { 
+    margin-right: 60px;
+}
+
+footer .testo {
+    margin: 4px;
+}
+
+footer h5 {
+    margin: 10px;
+}
+
+footer .flexColumn {
+    margin-right: 40px;
+}
+
+span a {
+    margin: 0px 5px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+#FooterMiddle .spaceBetween{
+    width: 30%;
+}
+
+#FooterMiddle img {
+    margin: 5px;
+}
+
+#FooterMiddle .flex .column{
+    margin-right: 4%;
+}
+
+footer a.center {
+    margin: 5px;
+}
+
+div.flexCenter a.flexCenter {
+    margin: 0px 5px 0px 5px;
+}
+
+#FooterBottom p {
+    margin: 0%;
+    font-size: 14px;
+}
+/*********************************************/
+
+/* Media Query */
+@media (max-width: 1000px) {
+    .scomparsa, #PuntoVendita {
+        display: none;
+    }
+
+    #DivSuperiore {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mediaColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scrittaShop, .divImgShop, #CacciaTiroTattico div {
+        width: 100%;
+    }
+
+    footer div {
+        margin-bottom: 20px;
+    }
+
+    #FooterMiddle .center {
+        align-items: start;
+    }
+
+    .textAlignRight{
+        text-align: left;
+    }
+
+    #FooterBottom a {
+        margin-left: 0%;
+    }
+}
